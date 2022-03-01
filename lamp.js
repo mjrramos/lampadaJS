@@ -13,7 +13,7 @@ toggle.onclick = function(){
         text.textContent = 'ON'
     }
     else{
-        lamp.src = 'assets/images/lamp/off_bg.png'
+        lamp.src = 'lampadaJS/assets/images/lamp/off_bg.png'
         text.textContent = 'OFF'
 
     }
