@@ -9,11 +9,11 @@ toggle.onclick = function(){
     body.classList.toggle('active')
 
     if(toggle.classList.contains('active')){
-        lamp.src = '../assets/images/lamp/on.jpg'
+        lamp.src = '../assets/images/lamp/on.JPG'
         text.textContent = 'ON'
     }
     else{
-        lamp.src = 'assets/images/lamp/off_bg.png'
+        lamp.src = './assets/images/lamp/off_bg.png'
         text.textContent = 'OFF'
 
     }
