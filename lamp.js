@@ -9,7 +9,7 @@ toggle.onclick = function(){
     body.classList.toggle('active')
 
     if(toggle.classList.contains('active')){
-        lamp.src = '../assets/images/lamp/on.JPG'
+        lamp.src = './assets/images/lamp/on.JPG'
         text.textContent = 'ON'
     }
     else{
@@ -20,6 +20,6 @@ toggle.onclick = function(){
 }
 
 
-const lampBroken = () => lamp.src = '/assets/images/lamp/broken_bg.png'
+const lampBroken = () => lamp.src = './assets/images/lamp/broken_bg.png'
 
 lamp.addEventListener('dblclick', lampBroken )
